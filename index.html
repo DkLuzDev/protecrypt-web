@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en" data-lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ProteCrypt System – Portfolio by Mariana Gomes</title>
+<meta name="description" content="Portfolio of Mariana Gomes: ProteCrypt System, a proposed platform that uses machine learning to score cryptocurrency transactions for fraud in real time.">
+<meta property="og:title" content="ProteCrypt System – Portfolio by Mariana Gomes">
+<meta property="og:description" content="Project proposal with an interactive risk-scoring demo, system pipeline, roadmap and financial projections.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#1A2342">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<nav class="nav" aria-label="Main">
+  <div class="wrap">
+    <a class="brand" href="#top"><img src="assets/favicon.svg" alt="" width="26" height="26">ProteCrypt</a>
+    <ul>
+      <li><a href="#glance"><span class="t-en">The project</span><span class="t-pt">O projeto</span></a></li>
+      <li><a href="#author"><span class="t-en">Author</span><span class="t-pt">Autora</span></a></li>
+      <li><a href="#how"><span class="t-en">The system</span><span class="t-pt">O sistema</span></a></li>
+      <li><a href="#market"><span class="t-en">Market</span><span class="t-pt">Mercado</span></a></li>
+      <li><a href="#roadmap"><span class="t-en">Roadmap</span><span class="t-pt">Roadmap</span></a></li>
+      <li><a href="#finance"><span class="t-en">Financials</span><span class="t-pt">Finanças</span></a></li>
+    </ul>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-set="en" aria-pressed="true">EN</button>
+      <button type="button" data-set="pt" aria-pressed="false">PT</button>
+    </div>
+  </div>
+</nav>
+
+<main id="top">
+<header class="hero">
+  <div class="wrap">
+    <div>
+      <p class="byline"><span class="t-en">Portfolio project by <b>Mariana Gomes</b></span><span class="t-pt">Projeto de portfólio de <b>Mariana Gomes</b></span></p>
+      <h1><span class="t-en">ProteCrypt System: stopping crypto fraud before it settles.</span><span class="t-pt">ProteCrypt System: barrando fraudes em cripto antes que se concretizem.</span></h1>
+      <p class="lead"><span class="t-en">A proposed platform that scores every cryptocurrency transaction in real time with machine learning, explains why it looks suspicious and recommends what to do next. This site presents the proposal, the system and the plan behind it.</span><span class="t-pt">Uma plataforma proposta que pontua cada transação de criptomoeda em tempo real com machine learning, explica por que ela parece suspeita e recomenda o próximo passo. Este site apresenta a proposta, o sistema e o plano por trás dele.</span></p>
+      <div class="btns">
+        <a class="btn primary" href="#demo"><span class="t-en">Try the risk scorer</span><span class="t-pt">Testar o score de risco</span></a>
+        <a class="btn" href="#glance"><span class="t-en">Read the proposal</span><span class="t-pt">Ler a proposta</span></a>
+      </div>
+      <ul class="badges">
+        <li><span class="t-en">Neural networks</span><span class="t-pt">Redes neurais</span></li>
+        <li><span class="t-en">Blockchain audit trail</span><span class="t-pt">Trilha de auditoria em blockchain</span></li>
+        <li><span class="t-en">Real-time alerts</span><span class="t-pt">Alertas em tempo real</span></li>
+        <li><span class="t-en">Compliance reports</span><span class="t-pt">Relatórios de conformidade</span></li>
+      </ul>
+    </div>
+
+    <div class="ledger" aria-label="Simulated transaction stream">
+      <header><b><span class="pulse"></span><span class="t-en">Transaction monitor</span><span class="t-pt">Monitor de transações</span></b><span class="t-en">risk score 0–100</span><span class="t-pt">score de risco 0–100</span></header>
+      <ol class="rows" id="rows" aria-live="off"></ol>
+      <footer><span class="t-en">Simulated data for illustration. Scores at 70 or above are flagged.</span><span class="t-pt">Dados simulados para ilustração. Scores a partir de 70 são sinalizados.</span></footer>
+    </div>
+  </div>
+</header>
+
+
+
+<section id="glance">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2><span class="t-en">The proposal in one minute</span><span class="t-pt">A proposta em um minuto</span></h2>
+      <p><span class="t-en">What problem it solves, how, for whom, and what changes.</span><span class="t-pt">Que problema resolve, como, para quem e o que muda.</span></p>
+    </div>
+    <div class="glance">
+      <article><h3><span class="t-en">The problem</span><span class="t-pt">O problema</span></h3><p><span class="t-en">Crypto markets are fast and often opaque. Fraud and cybercrime drain investors’ assets and shake confidence in the whole market.</span><span class="t-pt">O mercado cripto é rápido e muitas vezes opaco. Fraude e crime cibernético drenam o patrimônio dos investidores e abalam a confiança em todo o mercado.</span></p></article>
+      <article><h3><span class="t-en">The proposal</span><span class="t-pt">A proposta</span></h3><p><span class="t-en">ProteCrypt System monitors transactions in real time, uses machine learning to detect and predict fraud, and records every analysis on a blockchain audit trail.</span><span class="t-pt">O ProteCrypt System monitora transações em tempo real, usa machine learning para detectar e prever fraudes e registra cada análise em uma trilha de auditoria em blockchain.</span></p></article>
+      <article><h3><span class="t-en">Who it serves</span><span class="t-pt">Para quem</span></h3><p><span class="t-en">Individual investors, institutional investors, cryptocurrency exchanges and regulatory bodies.</span><span class="t-pt">Investidores individuais, investidores institucionais, exchanges de criptomoedas e órgãos reguladores.</span></p></article>
+      <article><h3><span class="t-en">The expected impact</span><span class="t-pt">O impacto esperado</span></h3><p><span class="t-en">Fewer fraud incidents, protected assets, easier regulatory compliance and more investor confidence, which supports a healthier crypto market.</span><span class="t-pt">Menos incidentes de fraude, ativos protegidos, conformidade regulatória mais simples e mais confiança do investidor, o que sustenta um mercado cripto mais saudável.</span></p></article>
+    </div>
+    <dl class="facts">
+      <div><dt><span class="t-en">Project type</span><span class="t-pt">Tipo de projeto</span></dt><dd><span class="t-en">Product and business proposal (concept)</span><span class="t-pt">Proposta de produto e negócio (conceito)</span></dd></div>
+      <div><dt><span class="t-en">Domain</span><span class="t-pt">Área</span></dt><dd><span class="t-en">Fintech, cybersecurity, regulatory compliance</span><span class="t-pt">Fintech, cibersegurança, conformidade regulatória</span></dd></div>
+      <div><dt><span class="t-en">Core technology</span><span class="t-pt">Tecnologia central</span></dt><dd><span class="t-en">Machine learning, neural networks, blockchain, encryption</span><span class="t-pt">Machine learning, redes neurais, blockchain, criptografia</span></dd></div>
+      <div><dt><span class="t-en">Target market</span><span class="t-pt">Mercado-alvo</span></dt><dd><span class="t-en">United States</span><span class="t-pt">Estados Unidos</span></dd></div>
+      <div><dt><span class="t-en">Scope</span><span class="t-pt">Escopo</span></dt><dd><span class="t-en">System design, roadmap, marketing plan, SWOT, five-year financials, hiring plan</span><span class="t-pt">Desenho do sistema, roadmap, plano de marketing, SWOT, finanças de cinco anos, plano de contratações</span></dd></div>
+      <div><dt><span class="t-en">Status</span><span class="t-pt">Status</span></dt><dd><span class="t-en">Fully documented concept; beta planned for the end of year 1</span><span class="t-pt">Conceito totalmente documentado; beta previsto para o fim do ano 1</span></dd></div>
+    </dl>
+  </div>
+</section>
+
+<section id="author" class="white">
+  <div class="wrap author">
+    <div class="avatar" aria-hidden="true">MG</div>
+    <div>
+      <h2>Mariana Gomes</h2>
+      <p class="role"><span class="t-en">Author of the proposal and system design</span><span class="t-pt">Autora da proposta e do desenho do sistema</span></p>
+      <p><span class="t-en">Mariana conceived ProteCrypt System and wrote its full documentation: the problem, the system architecture, the market analysis, the roadmap and the financial plan. She works as a software developer in the Microsoft ecosystem, and her technical background shaped how the platform is designed, from data pipeline to audit trail.</span><span class="t-pt">Mariana idealizou o ProteCrypt System e escreveu toda a sua documentação: o problema, a arquitetura do sistema, a análise de mercado, o roadmap e o plano financeiro. Ela atua como desenvolvedora de software no ecossistema Microsoft, e essa base técnica moldou o desenho da plataforma, do pipeline de dados à trilha de auditoria.</span></p>
+      <ul class="tags">
+        <li>C# / .NET</li><li>ASP.NET MVC</li><li>Web API</li><li>Entity Framework</li><li>LINQ</li><li>Dependency Injection</li><li>Repository Pattern</li><li>SQL Server</li><li>Azure</li><li>Azure OpenAI</li><li>Azure Cognitive Services</li><li>CI/CD</li><li>Git / GitHub</li><li>Agile</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="how">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2><span class="t-en">The proposed system: how a transaction moves through it</span><span class="t-pt">O sistema proposto: como uma transação percorre a plataforma</span></h2>
+      <p><span class="t-en">Nine stages, from raw blockchain data to an auditable decision.</span><span class="t-pt">Nove etapas, dos dados brutos da blockchain até uma decisão auditável.</span></p>
+    </div>
+    <ol class="pipe">
+      <li><div><h3><span class="t-en">Data collection</span><span class="t-pt">Coleta de dados</span></h3><p><span class="t-en">Continuous intake from exchanges and blockchain networks: amounts, timestamps, sender and receiver addresses and metadata, plus market trends, news and regulatory updates for context.</span><span class="t-pt">Captura contínua de exchanges e redes blockchain: valores, horários, endereços de origem e destino e metadados, além de tendências de mercado, notícias e atualizações regulatórias como contexto.</span></p></div></li>
+      <li><div><h3><span class="t-en">Preprocessing</span><span class="t-pt">Pré-processamento</span></h3><p><span class="t-en">Noise is removed, formats are normalized and missing values are handled, so the models always receive clean, consistent input.</span><span class="t-pt">O ruído é removido, os formatos são normalizados e valores ausentes são tratados, para que os modelos recebam sempre dados limpos e consistentes.</span></p></div></li>
+      <li><div><h3><span class="t-en">Feature engineering</span><span class="t-pt">Engenharia de features</span></h3><p><span class="t-en">Transaction patterns, frequency, volume anomalies and address behavior become features that make fraud easier to predict.</span><span class="t-pt">Padrões de transação, frequência, anomalias de volume e comportamento dos endereços viram features que facilitam a previsão de fraude.</span></p></div></li>
+      <li><div><h3><span class="t-en">Model training</span><span class="t-pt">Treinamento dos modelos</span></h3><p><span class="t-en">Supervised models learn from transactions labeled fraudulent or legitimate. Unsupervised models, such as clustering, find hidden patterns and anomalies without labels.</span><span class="t-pt">Modelos supervisionados aprendem com transações rotuladas como fraudulentas ou legítimas. Modelos não supervisionados, como clusterização, encontram padrões ocultos e anomalias sem rótulos.</span></p></div></li>
+      <li><div><h3><span class="t-en">Real-time monitoring</span><span class="t-pt">Monitoramento em tempo real</span></h3><p><span class="t-en">Each transaction is analyzed the moment it appears and receives a risk score.</span><span class="t-pt">Cada transação é analisada assim que aparece e recebe um score de risco.</span></p></div></li>
+      <li><div><h3><span class="t-en">Alerts</span><span class="t-pt">Alertas</span></h3><p><span class="t-en">Suspicious transactions trigger an alert to the exchange, the parties involved and, when needed, regulators, with the reasons for the flag.</span><span class="t-pt">Transações suspeitas geram um alerta para a exchange, as partes envolvidas e, se necessário, os reguladores, com os motivos da sinalização.</span></p></div></li>
+      <li><div><h3><span class="t-en">Decision support</span><span class="t-pt">Apoio à decisão</span></h3><p><span class="t-en">Recommendations scale with severity: suspend the transaction, run extra verification, or apply other preventive measures.</span><span class="t-pt">As recomendações variam conforme a gravidade: suspender a transação, exigir verificação adicional ou aplicar outras medidas preventivas.</span></p></div></li>
+      <li><div><h3><span class="t-en">Blockchain audit trail</span><span class="t-pt">Trilha de auditoria em blockchain</span></h3><p><span class="t-en">Transactions and their analyses are written to an immutable ledger that regulators and other stakeholders can audit, so the system itself cannot be quietly altered.</span><span class="t-pt">Transações e suas análises são gravadas em um registro imutável que reguladores e outras partes podem auditar, de modo que o próprio sistema não possa ser alterado em silêncio.</span></p></div></li>
+      <li><div><h3><span class="t-en">Continuous learning</span><span class="t-pt">Aprendizado contínuo</span></h3><p><span class="t-en">Models are retrained on new data and on feedback from confirmed fraud cases, adapting to new tactics.</span><span class="t-pt">Os modelos são retreinados com novos dados e com o retorno de casos de fraude confirmados, adaptando-se a novas táticas.</span></p></div></li>
+    </ol>
+  </div>
+</section>
+
+<section id="demo" class="white">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2><span class="t-en">Score a transaction yourself</span><span class="t-pt">Calcule o risco de uma transação</span></h2>
+      <p><span class="t-en">Move the sliders to describe a transfer. The score, the reasons behind it and the recommended action update instantly, the same three outputs the platform gives analysts.</span><span class="t-pt">Mova os controles para descrever uma transferência. O score, os motivos e a ação recomendada mudam na hora, as mesmas três saídas que a plataforma entrega aos analistas.</span></p>
+    </div>
+    <div class="sim">
+      <form class="controls" onsubmit="return false">
+        <div class="ctl">
+          <label for="i-amount"><span><span class="t-en">Amount vs. wallet's usual</span><span class="t-pt">Valor vs. o usual da carteira</span></span><output id="o-amount"></output></label>
+          <input id="i-amount" type="range" min="1" max="50" value="3">
+          <small><span class="t-en">Unusual transaction volume is a core fraud signal.</span><span class="t-pt">Volume incomum de transação é um sinal central de fraude.</span></small>
+        </div>
+        <div class="ctl">
+          <label for="i-freq"><span><span class="t-en">Transfers in the last hour</span><span class="t-pt">Transferências na última hora</span></span><output id="o-freq"></output></label>
+          <input id="i-freq" type="range" min="1" max="60" value="2">
+          <small><span class="t-en">Sudden shifts in trading activity.</span><span class="t-pt">Mudanças bruscas na atividade de negociação.</span></small>
+        </div>
+        <div class="ctl">
+          <label for="i-age"><span><span class="t-en">Recipient address age</span><span class="t-pt">Idade do endereço de destino</span></span><output id="o-age"></output></label>
+          <input id="i-age" type="range" min="0" max="365" value="200">
+          <small><span class="t-en">Behavior of the addresses involved.</span><span class="t-pt">Comportamento dos endereços envolvidos.</span></small>
+        </div>
+        <div class="ctl">
+          <label for="i-hops"><span><span class="t-en">Intermediary wallet hops</span><span class="t-pt">Saltos entre carteiras intermediárias</span></span><output id="o-hops"></output></label>
+          <input id="i-hops" type="range" min="0" max="8" value="1">
+          <small><span class="t-en">Long relay chains often hide the origin of funds.</span><span class="t-pt">Cadeias longas de repasse costumam esconder a origem dos fundos.</span></small>
+        </div>
+        <label class="check"><input id="i-flag" type="checkbox"><span class="t-en">Recipient was involved in a past fraud case</span><span class="t-pt">Destinatário já apareceu em um caso de fraude</span></label>
+      </form>
+      <div class="verdict" aria-live="polite">
+        <div class="gauge">
+          <svg viewBox="0 0 200 120" role="img" aria-label="Risk gauge"><path d="M20 105A80 80 0 0 1 180 105" fill="none" stroke="#34406B" stroke-width="16" stroke-linecap="round"/><path id="arc" d="M20 105A80 80 0 0 1 180 105" fill="none" stroke="#4ADE9B" stroke-width="16" stroke-linecap="round" pathLength="100" stroke-dasharray="0 100"/></svg>
+          <div class="num"><span id="score">0</span><small><span class="t-en">risk score</span><span class="t-pt">score de risco</span></small></div>
+        </div>
+        <div id="action" class="action ok"></div>
+        <ul class="reasons" id="reasons"></ul>
+      </div>
+    </div>
+    <p class="note"><span class="t-en">This demo uses a simple weighted rule set running in your browser so you can see the idea. The real system relies on trained supervised and unsupervised models, not fixed weights.</span><span class="t-pt">Esta demo usa regras ponderadas simples, executadas no seu navegador, só para mostrar a ideia. O sistema real usa modelos supervisionados e não supervisionados treinados, não pesos fixos.</span></p>
+  </div>
+</section>
+
+<section id="features">
+  <div class="wrap">
+    <div class="sec-head"><h2><span class="t-en">What the platform offers</span><span class="t-pt">O que a plataforma oferece</span></h2></div>
+    <div class="feat">
+      <article><h3><span class="t-en">AI and machine learning detection</span><span class="t-pt">Detecção com IA e machine learning</span></h3><p><span class="t-en">Neural networks and deep learning find complex fraud patterns and anomalies.</span><span class="t-pt">Redes neurais e deep learning encontram padrões complexos de fraude e anomalias.</span></p></article>
+      <article><h3><span class="t-en">Real-time analysis</span><span class="t-pt">Análise em tempo real</span></h3><p><span class="t-en">Suspicious activity is caught instantly, shrinking the window in which fraud can succeed.</span><span class="t-pt">Atividade suspeita é detectada na hora, reduzindo a janela em que a fraude pode ter sucesso.</span></p></article>
+      <article><h3><span class="t-en">Risk scoring</span><span class="t-pt">Score de risco</span></h3><p><span class="t-en">Every transaction gets a score so teams focus first on the most suspicious ones.</span><span class="t-pt">Toda transação recebe um score para que as equipes priorizem as mais suspeitas.</span></p></article>
+      <article><h3><span class="t-en">Customizable alerts</span><span class="t-pt">Alertas personalizáveis</span></h3><p><span class="t-en">Rules based on transaction size, frequency and risk score, tuned to each user's risk profile.</span><span class="t-pt">Regras baseadas em tamanho, frequência e score de risco, ajustadas ao perfil de risco de cada usuário.</span></p></article>
+      <article><h3><span class="t-en">Multiple data sources</span><span class="t-pt">Múltiplas fontes de dados</span></h3><p><span class="t-en">Exchanges, blockchain networks, market trends and news feeds give each transaction broader context.</span><span class="t-pt">Exchanges, redes blockchain, tendências de mercado e notícias dão mais contexto a cada transação.</span></p></article>
+      <article><h3><span class="t-en">Blockchain transparency</span><span class="t-pt">Transparência via blockchain</span></h3><p><span class="t-en">Every action the system takes is verifiable and auditable.</span><span class="t-pt">Toda ação do sistema é verificável e auditável.</span></p></article>
+      <article><h3><span class="t-en">Dashboard and reports</span><span class="t-pt">Dashboard e relatórios</span></h3><p><span class="t-en">Visualize metrics and trends, review alerts and export detailed compliance and audit reports.</span><span class="t-pt">Visualize métricas e tendências, revise alertas e gere relatórios detalhados de conformidade e auditoria.</span></p></article>
+      <article><h3><span class="t-en">Data encryption</span><span class="t-pt">Criptografia de dados</span></h3><p><span class="t-en">Encryption and secure storage keep transaction data confidential and protected from unauthorized access.</span><span class="t-pt">Criptografia e armazenamento seguro mantêm os dados de transação confidenciais e protegidos contra acesso não autorizado.</span></p></article>
+    </div>
+  </div>
+</section>
+
+<section id="market" class="white">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2><span class="t-en">Why now</span><span class="t-pt">Por que agora</span></h2>
+      <p><span class="t-en">U.S. market and enforcement figures cited in the project documentation, which targets the American market.</span><span class="t-pt">Números de mercado e fiscalização dos EUA citados na documentação do projeto, que mira o mercado americano.</span></p>
+    </div>
+    <div class="stats">
+      <div class="stat"><b>16.9%</b><span><span class="t-en">U.S. fraud detection and prevention market CAGR, 2023–2030</span><span class="t-pt">CAGR do mercado americano de detecção e prevenção de fraude, 2023–2030</span></span></div>
+      <div class="stat"><b>12.0%</b><span><span class="t-en">U.S. cryptocurrency market CAGR, 2023–2030</span><span class="t-pt">CAGR do mercado americano de criptomoedas, 2023–2030</span></span></div>
+      <div class="stat"><b>11.2%</b><span><span class="t-en">U.S. enterprise governance, risk and compliance market CAGR, 2024–2030</span><span class="t-pt">CAGR do mercado americano de governança, risco e conformidade, 2024–2030</span></span></div>
+    </div>
+    <div class="split">
+      <div>
+        <h3><span class="t-en">$2.5 billion in U.S. penalties for crypto violations</span><span class="t-pt">US$ 2,5 bilhões em multas nos EUA por violações com cripto</span></h3>
+        <p style="color:var(--muted);margin-top:8px"><span class="t-en">By type of violation, in millions of dollars (source cited: Elliptic).</span><span class="t-pt">Por tipo de violação, em milhões de dólares (fonte citada: Elliptic).</span></p>
+        <ul class="bars">
+          <li><span class="t-en">Unregistered securities</span><span class="t-pt">Títulos não registrados</span><div class="tr"><i style="--w:100%"></i></div><b>1,380</b></li>
+          <li><span class="t-en">Fraud</span><span class="t-pt">Fraude</span><div class="tr"><i style="--w:67%"></i></div><b>928</b></li>
+          <li><span class="t-en">AML violations</span><span class="t-pt">Violações de AML</span><div class="tr"><i style="--w:13%"></i></div><b>183</b></li>
+          <li><span class="t-en">Other</span><span class="t-pt">Outras</span><div class="tr"><i style="--w:1%"></i></div><b>8.5</b></li>
+          <li><span class="t-en">Sanctions</span><span class="t-pt">Sanções</span><div class="tr"><i style="--w:.1%"></i></div><b>0.6</b></li>
+        </ul>
+      </div>
+      <div>
+        <h3><span class="t-en">Enforcement is catching up</span><span class="t-pt">A fiscalização está avançando</span></h3>
+        <p style="margin-top:8px"><span class="t-en">In the first half of 2022, the U.S. Department of Justice fraud section charged 8 defendants in crypto cases involving more than $2 billion in losses, with $56 million recovered.</span><span class="t-pt">No primeiro semestre de 2022, a seção de fraude do Departamento de Justiça dos EUA acusou 8 réus em casos de cripto com mais de US$ 2 bilhões em perdas e US$ 56 milhões recuperados.</span></p>
+        <p><span class="t-en">Regulators, exchanges and institutions all need tools that detect fraud earlier and document how decisions were made. That is the gap ProteCrypt System is designed for.</span><span class="t-pt">Reguladores, exchanges e instituições precisam de ferramentas que detectem fraudes mais cedo e documentem como as decisões foram tomadas. É essa lacuna que o ProteCrypt System foi desenhado para preencher.</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="roadmap">
+  <div class="wrap">
+    <div class="sec-head"><h2><span class="t-en">Five-year roadmap</span><span class="t-pt">Roadmap de cinco anos</span></h2></div>
+    <div class="tl">
+      <article><small><span class="t-en">Year 1</span><span class="t-pt">Ano 1</span></small><h3><span class="t-en">Development and release</span><span class="t-pt">Desenvolvimento e lançamento</span></h3><p><span class="t-en">Build the AI models and interface, integrate with major exchanges, test extensively and launch a beta for early adopters.</span><span class="t-pt">Construir os modelos de IA e a interface, integrar com grandes exchanges, testar a fundo e lançar um beta para early adopters.</span></p></article>
+      <article><small><span class="t-en">Year 2</span><span class="t-pt">Ano 2</span></small><h3><span class="t-en">Updates</span><span class="t-pt">Atualizações</span></h3><p><span class="t-en">Refine accuracy using user feedback and new fraud patterns; add customizable alerts and reporting tools.</span><span class="t-pt">Refinar a precisão com feedback dos usuários e novos padrões de fraude; adicionar alertas personalizáveis e relatórios.</span></p></article>
+      <article><small><span class="t-en">Year 3</span><span class="t-pt">Ano 3</span></small><h3><span class="t-en">Marketing expansion</span><span class="t-pt">Expansão de marketing</span></h3><p><span class="t-en">Grow awareness and adoption through digital campaigns, events and partnerships with exchanges and institutions.</span><span class="t-pt">Ampliar o reconhecimento e a adoção com campanhas digitais, eventos e parcerias com exchanges e instituições.</span></p></article>
+      <article><small><span class="t-en">Year 4</span><span class="t-pt">Ano 4</span></small><h3><span class="t-en">Financial growth</span><span class="t-pt">Crescimento financeiro</span></h3><p><span class="t-en">Optimize revenue models, explore new monetization and secure additional funding.</span><span class="t-pt">Otimizar os modelos de receita, explorar novas formas de monetização e captar investimento adicional.</span></p></article>
+      <article><small><span class="t-en">Year 5</span><span class="t-pt">Ano 5</span></small><h3><span class="t-en">Partnerships</span><span class="t-pt">Parcerias</span></h3><p><span class="t-en">Integrate with financial institutions, regulators and technology companies to extend reach.</span><span class="t-pt">Integrar com instituições financeiras, reguladores e empresas de tecnologia para ampliar o alcance.</span></p></article>
+    </div>
+  </div>
+</section>
+
+<section id="finance" class="white">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2><span class="t-en">Financial projections</span><span class="t-pt">Projeções financeiras</span></h2>
+      <p><span class="t-en">Planning figures from the project documentation, in US dollars. They are projections, not results.</span><span class="t-pt">Números de planejamento da documentação do projeto, em dólares americanos. São projeções, não resultados.</span></p>
+    </div>
+    <div class="fin">
+      <div class="legend"><span><i style="background:var(--signal-soft);border:1px solid var(--signal)"></i><span class="t-en">Sales</span><span class="t-pt">Vendas</span></span><span><i style="background:var(--signal)"></i><span class="t-en">Net profit</span><span class="t-pt">Lucro líquido</span></span></div>
+      <svg id="chart" viewBox="0 0 720 330" role="img" aria-label="Sales and net profit by year"></svg>
+      <div class="tblwrap"><table class="tbl">
+        <thead><tr><th></th><th><span class="t-en">Year 1</span><span class="t-pt">Ano 1</span></th><th><span class="t-en">Year 2</span><span class="t-pt">Ano 2</span></th><th><span class="t-en">Year 3</span><span class="t-pt">Ano 3</span></th><th><span class="t-en">Year 4</span><span class="t-pt">Ano 4</span></th><th><span class="t-en">Year 5</span><span class="t-pt">Ano 5</span></th></tr></thead>
+        <tbody>
+          <tr><td><span class="t-en">Sales</span><span class="t-pt">Vendas</span></td><td>550,000</td><td>1,265,000</td><td>2,403,500</td><td>3,845,600</td><td>5,768,400</td></tr>
+          <tr><td><span class="t-en">Operating expenses</span><span class="t-pt">Despesas operacionais</span></td><td>423,000</td><td>924,600</td><td>1,419,400</td><td>1,994,100</td><td>2,580,830</td></tr>
+          <tr><td><span class="t-en">Net profit</span><span class="t-pt">Lucro líquido</span></td><td>29,058</td><td>130,409</td><td>566,565</td><td>1,168,212</td><td>2,140,071</td></tr>
+          <tr><td><span class="t-en">Net margin</span><span class="t-pt">Margem líquida</span></td><td>5%</td><td>10%</td><td>24%</td><td>30%</td><td>37%</td></tr>
+          <tr><td><span class="t-en">Cash balance</span><span class="t-pt">Saldo de caixa</span></td><td>18,888</td><td>103,654</td><td>471,921</td><td>1,231,258</td><td>2,622,304</td></tr>
+        </tbody></table></div>
+      <h3 style="margin-top:36px"><span class="t-en">The $10,000 seed budget</span><span class="t-pt">O capital inicial de US$ 10.000</span></h3>
+      <div class="seed" role="img" aria-label="Seed budget: development 7,500; marketing 1,000; admin 500; server and domain 500; working capital 500">
+        <div style="grid-column:span 3;background:#3446E0">Development $7,500</div>
+        <div style="background:#1A2342">Mkt $1,000</div>
+        <div style="background:#56607F" title="Admin, server and working capital: $500 each">$1,500</div>
+      </div>
+      <p class="note"><span class="t-en">Development $7,500, marketing $1,000, and $500 each for admin, server and domain, and working capital. Profits are reinvested early, and extra funding is sought before scaling marketing.</span><span class="t-pt">Desenvolvimento US$ 7.500, marketing US$ 1.000 e US$ 500 cada para administração, servidor e domínio e capital de giro. Os lucros são reinvestidos cedo, e novos aportes são buscados antes de ampliar o marketing.</span></p>
+    </div>
+  </div>
+</section>
+
+<section id="team">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2><span class="t-en">Hiring plan</span><span class="t-pt">Plano de contratações</span></h2>
+      <p><span class="t-en">Roles added each year, matched to the roadmap.</span><span class="t-pt">Funções adicionadas a cada ano, alinhadas ao roadmap.</span></p>
+    </div>
+    <div class="roles">
+      <div><h3><span class="t-en">Year 1</span><span class="t-pt">Ano 1</span></h3><ul><li>Founder and CEO</li><li>Lead Software Developer</li><li>Marketing Specialist</li></ul></div>
+      <div><h3><span class="t-en">Year 2</span><span class="t-pt">Ano 2</span></h3><ul><li>Data Scientist</li><li>Cybersecurity Analyst</li><li>UX/UI Designer</li><li>Customer Support Manager</li><li>Financial Analyst</li></ul></div>
+      <div><h3><span class="t-en">Year 3</span><span class="t-pt">Ano 3</span></h3><ul><li>Business Development Manager</li><li>Sales Representative</li><li>Quality Assurance Engineer</li><li>Content Strategist</li><li>Product Manager</li></ul></div>
+      <div><h3><span class="t-en">Year 4</span><span class="t-pt">Ano 4</span></h3><ul><li>Operations Manager</li><li>Blockchain Developer</li><li>Machine Learning Engineer</li><li>Technical Writer</li><li>Human Resources Manager</li><li>Partnerships Manager</li></ul></div>
+      <div><h3><span class="t-en">Year 5</span><span class="t-pt">Ano 5</span></h3><ul><li>Legal Advisor</li><li>Public Relations Manager</li><li>Data Engineer</li><li>Network Administrator</li><li>Compliance Officer</li><li>Customer Success Manager</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<section id="swot" class="white">
+  <div class="wrap">
+    <div class="sec-head"><h2><span class="t-en">SWOT analysis</span><span class="t-pt">Análise SWOT</span></h2></div>
+    <div class="swot">
+      <div class="s"><h3><span class="t-en">Strengths</span><span class="t-pt">Forças</span></h3><ul>
+        <li><span class="t-en">Advanced AI and machine learning</span><span class="t-pt">IA e machine learning avançados</span></li>
+        <li><span class="t-en">Real-time transaction monitoring</span><span class="t-pt">Monitoramento de transações em tempo real</span></li>
+        <li><span class="t-en">Strong initial team with diverse expertise</span><span class="t-pt">Equipe inicial forte e diversa</span></li>
+        <li><span class="t-en">Robust encryption and security</span><span class="t-pt">Criptografia e segurança robustas</span></li>
+        <li><span class="t-en">Comprehensive risk scoring and alerts</span><span class="t-pt">Score de risco e alertas completos</span></li></ul></div>
+      <div class="w"><h3><span class="t-en">Weaknesses</span><span class="t-pt">Fraquezas</span></h3><ul>
+        <li><span class="t-en">Limited initial market presence</span><span class="t-pt">Presença de mercado inicial limitada</span></li>
+        <li><span class="t-en">Depends on continuous technology updates</span><span class="t-pt">Depende de atualizações tecnológicas constantes</span></li>
+        <li><span class="t-en">High initial development costs</span><span class="t-pt">Custo inicial de desenvolvimento alto</span></li>
+        <li><span class="t-en">Ongoing user education and support</span><span class="t-pt">Necessidade contínua de educação e suporte</span></li>
+        <li><span class="t-en">Limited initial funding</span><span class="t-pt">Capital inicial limitado</span></li></ul></div>
+      <div class="o"><h3><span class="t-en">Opportunities</span><span class="t-pt">Oportunidades</span></h3><ul>
+        <li><span class="t-en">Growing crypto adoption</span><span class="t-pt">Adoção crescente de criptomoedas</span></li>
+        <li><span class="t-en">Rising demand for fraud prevention</span><span class="t-pt">Demanda crescente por prevenção a fraudes</span></li>
+        <li><span class="t-en">Partnerships with financial institutions</span><span class="t-pt">Parcerias com instituições financeiras</span></li>
+        <li><span class="t-en">Expanding regulatory requirements</span><span class="t-pt">Exigências regulatórias em expansão</span></li>
+        <li><span class="t-en">Emerging markets for digital financial security</span><span class="t-pt">Mercados emergentes de segurança financeira digital</span></li></ul></div>
+      <div class="t"><h3><span class="t-en">Threats</span><span class="t-pt">Ameaças</span></h3><ul>
+        <li><span class="t-en">Rapidly evolving fraud techniques</span><span class="t-pt">Técnicas de fraude em rápida evolução</span></li>
+        <li><span class="t-en">Intense competition in cybersecurity</span><span class="t-pt">Concorrência intensa em cibersegurança</span></li>
+        <li><span class="t-en">Regulatory changes and compliance challenges</span><span class="t-pt">Mudanças regulatórias e desafios de conformidade</span></li>
+        <li><span class="t-en">Market volatility and economic uncertainty</span><span class="t-pt">Volatilidade de mercado e incerteza econômica</span></li>
+        <li><span class="t-en">Dependence on external funding</span><span class="t-pt">Dependência de financiamento externo</span></li></ul></div>
+    </div>
+  </div>
+</section>
+
+<section id="mvv">
+  <div class="wrap">
+    <div class="mvv">
+      <div><h3><span class="t-en">Mission</span><span class="t-pt">Missão</span></h3><p><span class="t-en">Strengthen the security and integrity of cryptocurrency transactions with AI and machine learning, protecting investors and building confidence in digital currency markets.</span><span class="t-pt">Fortalecer a segurança e a integridade das transações de criptomoedas com IA e machine learning, protegendo investidores e criando confiança nos mercados de moedas digitais.</span></p></div>
+      <div><h3><span class="t-en">Vision</span><span class="t-pt">Visão</span></h3><p><span class="t-en">Be the leading provider of fraud detection for the crypto sector and help create a secure, transparent financial environment.</span><span class="t-pt">Ser a principal fornecedora de detecção de fraude para o setor cripto e ajudar a criar um ambiente financeiro seguro e transparente.</span></p></div>
+      <div><h3><span class="t-en">Values</span><span class="t-pt">Valores</span></h3><p><span class="t-en">Innovation, integrity, security, transparency, customer focus, collaboration and excellence.</span><span class="t-pt">Inovação, integridade, segurança, transparência, foco no cliente, colaboração e excelência.</span></p></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <p><span class="t-en">ProteCrypt System is a concept project by Mariana Gomes, presented as a portfolio piece. Market figures and financial projections come from the project documentation and are not financial advice. The risk scorer above is an educational simulation.</span><span class="t-pt">O ProteCrypt System é um projeto conceitual de Mariana Gomes, apresentado como peça de portfólio. Os números de mercado e as projeções financeiras vêm da documentação do projeto e não são aconselhamento financeiro. O score de risco acima é uma simulação educativa.</span></p>
+    <p>Source code: <a href="https://github.com/DkLuzDev/protecrypt-system">github.com/YOUR-USERNAME/protecrypt-system</a></p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
